@@ -1,1 +1,1 @@
-FROM  blazemeter/taurus
+FROM blazemeter/taurus

@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bzt "test/quick_test.yml"
+                sh 'bzt test/quick_test.yml'
             }
         }
     }
