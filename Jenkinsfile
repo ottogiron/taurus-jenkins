@@ -1,10 +1,7 @@
 pipeline {
-    agent {
-        dockerfile true
-    }
-
+    agent { dockerfile true }
     stages {
-        stage('Run Tests') {
+        stage('Test') {
             steps {
                 bzt "test/quick_test.yml"
             }
