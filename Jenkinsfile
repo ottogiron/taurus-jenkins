@@ -4,9 +4,9 @@ pipeline {
     }
 
     stages {
-        stage('Hello') {
+        stage('Run Tests') {
             steps {
-                echo 'Hello World'
+                bzt test/quick_test.yml
             }
         }
     }
