@@ -1,3 +1,3 @@
-FROM python:3.8
+FROM openjdk:8
 
 RUN pip install bzt
