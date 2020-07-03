@@ -1,9 +1,9 @@
 pipeline {
     agent { dockerfile true }
     stages {
-        stage('Test') {
+        stage('Performance Test') {
             steps {
-                sh 'bzt test/quick_test.yml'
+                sh 'bzt test/quick_test.yml -report'
             }
         }
     }
