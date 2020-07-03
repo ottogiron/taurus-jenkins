@@ -1,3 +1,3 @@
-FROM openjdk:8
+FROM  blazemeter/taurus
 
-RUN pip install bzt
+ENTRYPOINT [ "python" ]
