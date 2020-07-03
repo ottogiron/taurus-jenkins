@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Run Tests') {
             steps {
-                bzt test/quick_test.yml
+                bzt "test/quick_test.yml"
             }
         }
     }
