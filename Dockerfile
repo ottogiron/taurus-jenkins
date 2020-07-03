@@ -1,3 +1,3 @@
 FROM  blazemeter/taurus
 
-ENTRYPOINT [ "python","--version" ]
+CMD ["python"]
